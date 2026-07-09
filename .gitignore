@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Secrets & environment variables
+.env
+*.env
+secrets.toml
+.streamlit/secrets.toml
+
+# Trained model files (large binaries)
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Generated reports (runtime output)
+generated_reports/
+reports/
+
+# Database files
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Learning models (empty/runtime folder)
+learning models/
+preprocessing/
+styling/
